@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website </title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+    
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="index.html" class="logo"> <i class="fas fa-shopping-basket"></i> OneStopShop </a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="#features">features</a>
+        <a href="products.html">products</a>
+        <a href="categories.html">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-2.png" alt="">
+            <div class="content">
+                <h3>onion</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $19.69/- </div>
+        <a href="/cart.html" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>You <span>Choose</span> We <span>Deliver</span></h3>
+        <p> <span>OneStopShop</span> brings you the best of varieties of the fresh products in grocery and the best of daily wear for you and your family members.</p>
+        <a href="products.html" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!--Products section starts-->
+<section id="product" class="heading">
+    <h2>featured products</h2>
+    <p>latest arrivals with new modern designs</p>
+    <div class="pro-container">
+        <div class="pro">
+            <img src="/image/shirt-1.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >Nike</span>
+                <h5 style="font-size:medium">grey non-printed t-shirt</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/shirt-2.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >primitive</span>
+                <h5 style="font-size:medium">born-Primivite t-shirt</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/shirt-3.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >polo</span>
+                <h5 style="font-size:medium">grey polo t-shirt</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/shirt-4.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >anime</span>
+                <h5 style="font-size:medium">anime printed t-shirt</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/shirt-5.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >nike</span>
+                <h5 style="font-size:medium">printed full-sleeved shirt</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/shirt-7.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >addidas</span>
+                <h5 style="font-size:medium">gladiator printed shirt</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/shirt-8.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >addidas</span>
+                <h5 style="font-size:medium">assassin creed printed shirt</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/shirt-6.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >polo</span>
+                <h5 style="font-size:medium">polo purple t-shirt</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+    </div>
+
+
+
+    <p>--Shoes--</p>
+
+    <div class="pro-container">
+        <div class="pro">
+            <img src="/image/shoes-4.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >Nike</span>
+                <h5 style="font-size:medium">basket-ball shoes</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 2,999</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/shoes-3.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >woodland</span>
+                <h5 style="font-size:medium">high strength shoes</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 2,499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/shoes-2.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >puma</span>
+                <h5 style="font-size:medium">running shoes</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 1,499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/shoes-1.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >vans</span>
+                <h5 style="font-size:medium">casual style shoes</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 1,399</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+    </div>
+
+    <p>--Tecnology--</p>
+
+
+    <div class="pro-container">
+        <div class="pro">
+            <img src="/image/laptop-1.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >dell</span>
+                <h5 style="font-size:medium">dell core i3 5th gen</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 49,999</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/laptop-2.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >alienware</span>
+                <h5 style="font-size:medium">core i7 Gaming laptop </h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 64,999</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/laptop-3.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >asus</span>
+                <h5 style="font-size:medium">asus core i7 7th gen</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 44,999</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/laptop-4.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >hp</span>
+                <h5 style="font-size:medium">hp notebook core i5 7th gen </h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 44,999</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+        </div>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="/image/headphone-1.png"  alt="">
+                <div class="dec" font-size="300%">
+                    <span >alienware</span>
+                    <h5 style="font-size:medium">gaming headphones</h5>
+                    <div class="stars" style="font-size:medium">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h4 style="font-size:medium">Rs. 4,999</h4>
+                </div>
+                <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+            </div>
+            <div class="pro">
+                <img src="/image/mouse-1.png"  alt="">
+                <div class="dec" font-size="300%">
+                    <span >hp</span>
+                    <h5 style="font-size:medium">gaming mouse</h5>
+                    <div class="stars" style="font-size:medium">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h4 style="font-size:medium">Rs. 2,499</h4>
+                </div>
+                <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+            </div>
+            <div class="pro">
+                <img src="/image/keyboard-1.png"  alt="">
+                <div class="dec" font-size="300%">
+                    <span >alienware</span>
+                    <h5 style="font-size:medium">gaming RGB keyboard</h5>
+                    <div class="stars" style="font-size:medium">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h4 style="font-size:medium">Rs. 1,499</h4>
+                </div>
+                <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+            </div>
+            <div class="pro">
+                <img src="/image/keyboard-2.png"  alt="">
+                <div class="dec" font-size="300%">
+                    <span >alienware</span>
+                    <h5 style="font-size:medium">bttlefield 4 limited edition keyboard</h5>
+                    <div class="stars" style="font-size:medium">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h4 style="font-size:medium">Rs. 3,499</h4>
+                </div>
+                <a href="#" ><i class="fas fa-shopping-cart cart" id="cart-btn"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <a href="products2.html" class="btn">to Edibles Secton</a>
+    </div>
+    <br>
+    <br>
+
+
+</section>
+
+
+
+<!--Products section ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> OneStopShop <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Connect with us on our various online social handles.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="https://instagram.com/shanawarhasan?igshid=ZDdkNTZiNTM=" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/shanawar-hasan-3a613b224" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +91xxxxxxxxx </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +91xxxxxxxxx </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> shanawarhasan007@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> kanpur, india - 208001 </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html/index.html" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="products.html" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="categories.html" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="index.html/index.html" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="index.html/index.html" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="/image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> Shanawar Hasan </span> | Copyright &copy; 2023 OneStopShop </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website </title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+    
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="index.html" class="logo"> <i class="fas fa-shopping-basket"></i> OneStopShop </a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="#features">features</a>
+        <a href="products.html">products</a>
+        <a href="categories.html">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-2.png" alt="">
+            <div class="content">
+                <h3>onion</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $19.69/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>You <span>Choose</span> We <span>Deliver</span></h3>
+        <p> <span>OneStopShop</span> brings you the best of varieties of the fresh products in grocery and the best of daily wear for you and your family members.</p>
+        <a href="products.html" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!--Products section starts-->
+
+<section id="product" class="heading">
+    <h2>featured products</h2>
+    <p>Farm fresh fruits, veggies and dairy/meat products</p>
+    <div class="pro-container">
+        <div class="pro">
+            <img src="/image/product-1.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >oranges</span>
+                <h5 style="font-size:medium">fresh oranges</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 60/kg</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/product-2.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >onion</span>
+                <h5 style="font-size:medium">fresh onion</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 60/kg</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/product-9.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >kiwi</span>
+                <h5 style="font-size:medium">fresh and nutritious kiwi</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 100/kg</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/product-4.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >cabbage</span>
+                <h5 style="font-size:medium">fresh green cabbage</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 40/pc.</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/product-5.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >potato</span>
+                <h5 style="font-size:medium">fresh potato</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 40/kg</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/product-6.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >avocado</span>
+                <h5 style="font-size:medium">fresh avocado</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 300/500gms.</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/product-7.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >carrot</span>
+                <h5 style="font-size:medium">fresh carrot</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 40/kg</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/product-8.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >lemon</span>
+                <h5 style="font-size:medium">green lemon</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 30/ 2 pc.</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+    </div>
+
+
+
+    <p>--dairy products--</p>
+
+    <div class="pro-container">
+        <div class="pro">
+            <img src="/image/milk-1.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >milk</span>
+                <h5 style="font-size:medium">fresh processed milk</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/eggs.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >eggs</span>
+                <h5 style="font-size:medium">poultry fresh eggs</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/cheese.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >cheese</span>
+                <h5 style="font-size:medium">fresh cheese</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/ice-cream.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >ice-cream</span>
+                <h5 style="font-size:medium">oreo ice-cream</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 499</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+    </div>
+
+    <p>--meat products--</p>
+
+
+    <div class="pro-container">
+        <div class="pro">
+            <img src="/image/product-3.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >lamb</span>
+                <h5 style="font-size:medium">fresh lam meat</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 650/kg</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/product-11.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >chicken</span>
+                <h5 style="font-size:medium">chicken pops </h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 300/kg</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+        <div class="pro">
+            <img src="/image/meat-2.png"  alt="">
+            <div class="dec" font-size="300%">
+                <span >beef</span>
+                <h5 style="font-size:medium">fresh beef  meat</h5>
+                <div class="stars" style="font-size:medium">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h4 style="font-size:medium">Rs. 600/kg</h4>
+            </div>
+            <a href="#" ><i class="fas fa-shopping-cart cart" ></i></a>
+        </div>
+    </div>
+    
+
+
+</section>
+
+<!--Products section ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> OneStopShop <i class="fas fa-shopping-basket"></i> </h3>
+            <p>Connect with us on our various online social handles.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="https://instagram.com/shanawarhasan?igshid=ZDdkNTZiNTM=" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/shanawar-hasan-3a613b224" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +91xxxxxxxxx </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +91xxxxxxxxx </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> shanawarhasan007@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> kanpur, india - 208001 </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html/index.html" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="products.html" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="categories.html" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="index.html/index.html" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="index.html/index.html" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="/image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> Shanawar Hasan </span> | Copyright &copy; 2023 OneStopShop </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="/js/script.js"></script>
+
+</body>
+</html>
